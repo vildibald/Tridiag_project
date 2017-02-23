@@ -17,7 +17,7 @@ __FILE__ , __LINE__ ) ; return err;\
 
 void deBoorMakeTridiag(std::vector<float> x, std::vector<float> y, float d0, float dn, std::vector<float> &a, std::vector<float> &b, std::vector<float> &c, std::vector<float> &r)
 {
-	std::vector<float> dX(x.size() - 1);
+	std::vector<float> dX(x.size() - 1);// tu
 	std::vector<float> dY(y.size() - 1);
 	for (int i = 0; i < dX.size(); i++)
 	{
